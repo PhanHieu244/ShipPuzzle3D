@@ -1,0 +1,14 @@
+Asset Name		-	LICENCE
+---------------------------------------------------------------------------------------------------------------------------------
+NaughtyAttributes		-	Assets\SeatSorting_Files\NaughtyAttributes\LICENSE.txt
+
+DOTweenFree				-	Assets\SeatSorting_Files\Plugins\Demigiant\DOTween\LICENSE.txt
+
+UIEffect				-	Assets\SeatSorting_Files\UIEffect-upm\LICENSE.txt
+
+Vibration				-	Assets\SeatSorting_Files\Vibration\LICENSE.txt
+
+Fredoka-Medium Font		-	Assets\SeatSorting_Files\Game\Font\Fredoka_LICENSE.txt
+
+Dreamteck Splines		- 	Assets\SeatSorting_Files\Plugins\Dreamteck\LICENSE.txt
+

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10c769ec574524cd3be8361b094e70dd, type: 3}
+  m_Name: PassengerTypeSO
+  m_EditorClassIdentifier: 
+  passengerNone: {fileID: 0}
+  passengerBlue: {fileID: 8218367190014139187, guid: 08361714c1fe2481d91e49a141332b0a, type: 3}
+  passengerRed: {fileID: 8218367190014139187, guid: 33472581aa37741fca9975f38066d041, type: 3}
+  passengerGreen: {fileID: 8218367190014139187, guid: 8f1bf735fe788c94d8be9b9b7d464dad, type: 3}
+  passengerOrange: {fileID: 8218367190014139187, guid: b98e0cb4c6aeb1f44854e06a0e86818c, type: 3}
+  passengerPink: {fileID: 8218367190014139187, guid: 5b46353641bc4e442a76a805ff6e2455, type: 3}
+  passengerPurple: {fileID: 8218367190014139187, guid: 012f168ef95959f4baf0209160503d65, type: 3}
+  passengerYellow: {fileID: 8218367190014139187, guid: ccfe028ebeff73045a0e89d8e964ea9b, type: 3}
+  passengerGray: {fileID: 0}
+  passengerSpringGreen: {fileID: 0}

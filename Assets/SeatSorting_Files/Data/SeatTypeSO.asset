@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1be2e916dca394b63a3d41bfa6f829d3, type: 3}
+  m_Name: SeatTypeSO
+  m_EditorClassIdentifier: 
+  seatNone: {fileID: 0}
+  seatBlue: {fileID: 5072673140415980086, guid: 98a506ddeda454669a5aab688c63d9e4, type: 3}
+  seatRed: {fileID: 5072673140415980086, guid: 4597ebde1e54f4290b0e5b527bede707, type: 3}
+  seatGreen: {fileID: 5072673140415980086, guid: 44482b76c6f4f574a825ce7ceedaa662, type: 3}
+  seatOrange: {fileID: 5072673140415980086, guid: 99a140d3fca09d2418dc091a5dae0c4b, type: 3}
+  seatPink: {fileID: 5072673140415980086, guid: 1c7ba6728d647ed4c9a5f61971c0ee44, type: 3}
+  seatPurple: {fileID: 5072673140415980086, guid: e7e32aa262766184faf2e3999894cc28, type: 3}
+  seatYellow: {fileID: 5072673140415980086, guid: 6bd5e8f3f62873941a217cfe45a68615, type: 3}
+  seatGray: {fileID: 0}
+  seatSpringGreen: {fileID: 0}

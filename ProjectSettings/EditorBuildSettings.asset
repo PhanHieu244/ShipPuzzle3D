@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/SeatSorting_Files/Game/Scenes/Loading.unity
+    guid: 890d67098d053492f8ee31256290891f
+  - enabled: 1
+    path: Assets/SeatSorting_Files/Game/Scenes/Level 1.unity
+    guid: 959e0b440af2f44109c16cebce0f236d
+  - enabled: 1
+    path: Assets/SeatSorting_Files/Game/Scenes/Level 2.unity
+    guid: 467d8f0a6b7b8434d936409c4f83a760
+  - enabled: 1
+    path: Assets/SeatSorting_Files/Game/Scenes/Level 3.unity
+    guid: 4f9178a85e2d14beaa6bc5832faf08f1
+  - enabled: 1
+    path: Assets/SeatSorting_Files/Game/Scenes/Level 4.unity
+    guid: 42609d91a66f8439d9049320cb026cfa
+  - enabled: 1
+    path: Assets/SeatSorting_Files/Game/Scenes/Level 5.unity
+    guid: 8b17e849a724e46839a5394500ad9a81
+  - enabled: 1
+    path: Assets/SeatSorting_Files/Game/Scenes/Level 6.unity
+    guid: 68524741b375343e8bf5725f2a1790ab
+  - enabled: 1
+    path: Assets/SeatSorting_Files/Game/Scenes/Level 7.unity
+    guid: 523156aa27f9d449bab4bae99a1a9dcc
+  - enabled: 1
+    path: Assets/SeatSorting_Files/Game/Scenes/Level 8.unity
+    guid: 203730bc8e1664d95a1c3bde98e18e78
+  - enabled: 1
+    path: Assets/SeatSorting_Files/Game/Scenes/Level 9.unity
+    guid: a138e2f97ff0848afa0fd10041b84ae0
+  - enabled: 1
+    path: Assets/SeatSorting_Files/Game/Scenes/Level 10.unity
+    guid: af42afc10bfc84fa697f23125812a7b9
+  - enabled: 1
+    path: Assets/SeatSorting_Files/Game/Scenes/Level 11.unity
+    guid: feafdef725a1244508c64314c627d733
+  - enabled: 1
+    path: Assets/SeatSorting_Files/Game/Scenes/Level 12.unity
+    guid: ffed6ab6c3492419784da6fb35f5780d
+  - enabled: 1
+    path: Assets/SeatSorting_Files/Game/Scenes/Level 13.unity
+    guid: 2dbc5f38711ff4fd2ad8041e27b6d3c4
+  - enabled: 1
+    path: Assets/SeatSorting_Files/Game/Scenes/Level 14.unity
+    guid: 4d41bb362de114150a91f226c224eead
+  - enabled: 1
+    path: Assets/SeatSorting_Files/Game/Scenes/Level 15.unity
+    guid: a2c38beeca5d74eb5a51b63a285013f4
+  - enabled: 1
+    path: Assets/SeatSorting_Files/Game/Scenes/Level 16.unity
+    guid: 9d6e3db49b75f4bfd89eff22d264b1f5
+  - enabled: 1
+    path: Assets/SeatSorting_Files/Game/Scenes/Level 17.unity
+    guid: 4945d86bd6e4a4b5d97356e385fb10d9
+  - enabled: 1
+    path: Assets/SeatSorting_Files/Game/Scenes/Level 18.unity
+    guid: c8b802ccc7435484ebb2acac6e5098a7
+  - enabled: 1
+    path: Assets/SeatSorting_Files/Game/Scenes/Level 19.unity
+    guid: 2f2c45e5fec174ac595a3b300e83630d
+  - enabled: 1
+    path: Assets/SeatSorting_Files/Game/Scenes/Level 20.unity
+    guid: 9017e69c9d5824cbaace7cf7ebf3b682
+  - enabled: 1
+    path: Assets/SeatSorting_Files/Game/Scenes/Level 21.unity
+    guid: 1147eefa3ecc24476b9e6b3a0c68ca71
+  - enabled: 1
+    path: Assets/SeatSorting_Files/Game/Scenes/Level 22.unity
+    guid: 7cff0bd90ef2d48aa9eb1c27a9609a5f
+  - enabled: 1
+    path: Assets/SeatSorting_Files/Game/Scenes/Level 23.unity
+    guid: 767eeaf27e688491d86c139a8c22d24d
+  - enabled: 1
+    path: Assets/SeatSorting_Files/Game/Scenes/Level 24.unity
+    guid: 341384d65d36449fe814b803c5d7f74a
+  - enabled: 1
+    path: Assets/SeatSorting_Files/Game/Scenes/Level 25.unity
+    guid: cafa955bc35654ae1910fc237e01e6ff
+  - enabled: 1
+    path: Assets/SeatSorting_Files/Game/Scenes/Level 26.unity
+    guid: 3e791b429a89b4879b8d55d2693b4935
+  m_configObjects: {}
