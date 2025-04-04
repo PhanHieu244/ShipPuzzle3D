@@ -9,18 +9,26 @@ namespace EKStudio
 {
     public static class PassengerFactory
     {
+        
+        private static PassengerProperties PassengerSpawn()
+        {
+            var go = new GameObject("PassengerSpawn");
+            return go.AddComponent<PassengerSpawn>();
+        }
+
+        
         private static Dictionary<BusSeatPassType, Func<PassengerProperties>> passengerFactory = new Dictionary<BusSeatPassType, Func<PassengerProperties>>
         {
-            {BusSeatPassType.None, () => new PassengerSpawn() },
-            {BusSeatPassType.Blue, () => new PassengerSpawn() },
-            {BusSeatPassType.Red, () => new PassengerSpawn() },
-            {BusSeatPassType.Green, () => new PassengerSpawn() },
-            {BusSeatPassType.Orange, () => new PassengerSpawn() },
-            {BusSeatPassType.Pink, () => new PassengerSpawn() },
-            {BusSeatPassType.Purple, () => new PassengerSpawn() },
-            {BusSeatPassType.Yellow, () => new PassengerSpawn() },
-            {BusSeatPassType.Gray, () => new PassengerSpawn() },
-            {BusSeatPassType.SpringGreen, () => new PassengerSpawn() },
+            {BusSeatPassType.None, PassengerSpawn},
+            {BusSeatPassType.Blue, PassengerSpawn},
+            {BusSeatPassType.Red, PassengerSpawn},
+            {BusSeatPassType.Green, PassengerSpawn},
+            {BusSeatPassType.Orange, PassengerSpawn},
+            {BusSeatPassType.Pink, PassengerSpawn},
+            {BusSeatPassType.Purple, PassengerSpawn},
+            {BusSeatPassType.Yellow, PassengerSpawn},
+            {BusSeatPassType.Gray, PassengerSpawn},
+            {BusSeatPassType.SpringGreen, PassengerSpawn},
         };
 
         public static PassengerProperties SpawnPassenger(BusSeatPassType passengerType, Transform parent, out GameObject factoryProduct)

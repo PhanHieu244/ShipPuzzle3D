@@ -1,5 +1,43 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3829827959691196291
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5561402332984948876}
+    m_Modifications:
+    - target: {fileID: 1407980211785118757, guid: 20540b4dbcec73c4e9a22d8b1c355842, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407980211785118757, guid: 20540b4dbcec73c4e9a22d8b1c355842, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407980211785118757, guid: 20540b4dbcec73c4e9a22d8b1c355842, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7746987103081545192, guid: 20540b4dbcec73c4e9a22d8b1c355842, type: 3}
+      propertyPath: m_Name
+      value: container_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8521029045905083956, guid: 20540b4dbcec73c4e9a22d8b1c355842, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1dd7441fa66d17943bb428c8d72d98f6, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 20540b4dbcec73c4e9a22d8b1c355842, type: 3}
+--- !u!4 &2786723997507355558 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1407980211785118757, guid: 20540b4dbcec73c4e9a22d8b1c355842, type: 3}
+  m_PrefabInstance: {fileID: 3829827959691196291}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5378609164306472807
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -61,9 +99,13 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 8d4a1115303d42049a54254c7568fa8f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8d4a1115303d42049a54254c7568fa8f, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7a513e3c2ceed5246bafa9f8124f9428, type: 2}
+      objectReference: {fileID: 2100000, guid: a2c75fd5da89cca49bc18f6345f63bed, type: 2}
     - target: {fileID: 919132149155446097, guid: 8d4a1115303d42049a54254c7568fa8f, type: 3}
       propertyPath: m_Name
       value: Seat_Green
@@ -82,7 +124,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8d4a1115303d42049a54254c7568fa8f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2786723997507355558}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8d4a1115303d42049a54254c7568fa8f, type: 3}
       insertIndex: -1
@@ -132,3 +177,8 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3, y: 2, z: 2.75}
   m_Center: {x: -0.015309274, y: 1.1567092, z: 0.3373282}
+--- !u!4 &5561402332984948876 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8d4a1115303d42049a54254c7568fa8f, type: 3}
+  m_PrefabInstance: {fileID: 5378609164306472807}
+  m_PrefabAsset: {fileID: 0}

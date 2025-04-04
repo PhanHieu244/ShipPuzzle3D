@@ -32,6 +32,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8428022113396159157}
+  - {fileID: 7850258620943483387}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7733115157607645404
@@ -237,6 +238,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stickman
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 55bf4413c30c38246b8f2546e990c705, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2622753384463669962, guid: 55bf4413c30c38246b8f2546e990c705, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2622753384463669962, guid: 55bf4413c30c38246b8f2546e990c705, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -254,4 +263,38 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 55bf4413c30c38246b8f2546e990c705, type: 3}
   m_PrefabInstance: {fileID: 8321772536884893022}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9186109679702635998
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4263491760323451231}
+    m_Modifications:
+    - target: {fileID: 1407980211785118757, guid: 1b0ad2a6f3325984398d86ae81a09625, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407980211785118757, guid: 1b0ad2a6f3325984398d86ae81a09625, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1407980211785118757, guid: 1b0ad2a6f3325984398d86ae81a09625, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7746987103081545192, guid: 1b0ad2a6f3325984398d86ae81a09625, type: 3}
+      propertyPath: m_Name
+      value: container_02
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1b0ad2a6f3325984398d86ae81a09625, type: 3}
+--- !u!4 &7850258620943483387 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1407980211785118757, guid: 1b0ad2a6f3325984398d86ae81a09625, type: 3}
+  m_PrefabInstance: {fileID: 9186109679702635998}
   m_PrefabAsset: {fileID: 0}

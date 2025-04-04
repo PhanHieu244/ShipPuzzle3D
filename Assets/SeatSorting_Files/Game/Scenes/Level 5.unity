@@ -657,7 +657,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5660464458176670615, guid: d9c9ef6e48c6a483485ab45fd3361ed1, type: 3}
       propertyPath: m_text
-      value: Send the buses in front of the tunnel until the ones inside run out!
+      value: Send the ships in front of the tunnel until the ones inside run out!
       objectReference: {fileID: 0}
     - target: {fileID: 5660464458176670615, guid: d9c9ef6e48c6a483485ab45fd3361ed1, type: 3}
       propertyPath: m_fontSize

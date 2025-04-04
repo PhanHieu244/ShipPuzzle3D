@@ -69,7 +69,7 @@ namespace EKStudio
             ResetAllTriggers();
             animator.SetTrigger("isSit");
 
-            transform.DOLocalJump(new Vector3(0f, 0f, 0.75f), 1f, 1, 0.25f).OnComplete(() => {
+            transform.DOLocalJump(new Vector3(0f, 1.34f, 0.34f), 1f, 1, 0.25f).OnComplete(() => {
                 PassengerManager.Instance.currentPassengerList.Remove(this);
                 PassengerManager.Instance.MoveOtherPassengers();
                 //When you sit down, the count increases.
