@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a412cc59aa8f04af295a46b9771c6cc3, type: 3}
   m_Name: GameData
   m_EditorClassIdentifier: 
-  totalMoney: 450
+  totalMoney: 1000
   levelMoney: 100
-  levelCount: 3
+  levelCount: 1
   maxLevel: 26
-  openLevel: 3
+  openLevel: 1
   priceShuffle: 750
   priceSort: 750
   priceVIP: 750

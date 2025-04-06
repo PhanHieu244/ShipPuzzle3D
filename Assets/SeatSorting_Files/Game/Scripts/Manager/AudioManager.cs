@@ -7,6 +7,7 @@ namespace EKStudio
     public class AudioManager : MonoBehaviour
     {
         public AudioSource audioPlay;
+        public AudioSource sfx;
     
         private void OnEnable()
         {
@@ -25,8 +26,8 @@ namespace EKStudio
         private void OnPlaySound(object value)
         {
             string sound = (string)value;
-            audioPlay.clip = Resources.Load((string)value) as AudioClip;
-            audioPlay.PlayOneShot(audioPlay.clip);
+            sfx.clip = Resources.Load((string)value) as AudioClip;
+            sfx.PlayOneShot(sfx.clip);
         }
     
         private void OnSoundStart(object value)

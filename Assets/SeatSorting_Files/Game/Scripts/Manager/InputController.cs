@@ -31,6 +31,7 @@ namespace EKStudio
     
                         if (PlayerPrefs.GetInt("IsHapticOpen") == 1)
                             Vibration.VibratePop();
+                        EventManager.Broadcast(GameEvent.OnPlaySound, "click");
                     }
                 }
             }
@@ -80,6 +81,7 @@ namespace EKStudio
     
                     if (PlayerPrefs.GetInt("IsHapticOpen") == 1)
                         Vibration.VibratePop();
+                    EventManager.Broadcast(GameEvent.OnPlaySound, "click");
     
                     //EventManager.Broadcast(GameEvent.OnPlaySound, "Pop");
     

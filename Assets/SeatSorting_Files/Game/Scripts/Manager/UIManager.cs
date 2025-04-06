@@ -29,6 +29,7 @@ namespace EKStudio
         void Start()
         {
             InvokeRepeating(nameof(UpdateText), 0f, 1f);
+            EventManager.Broadcast(GameEvent.OnSoundStart, "music");
         }
     
         public void UpdateText()
@@ -59,11 +60,13 @@ namespace EKStudio
         void OnWin()
         {
             winPanel.SetActive(true);
+            EventManager.Broadcast(GameEvent.OnPlaySound, "win");
         }
     
         void OnLose()
         {
             losePanel.SetActive(true);
+            EventManager.Broadcast(GameEvent.OnPlaySound, "loose");
         }
     
         public void OnFail(int failNo)
