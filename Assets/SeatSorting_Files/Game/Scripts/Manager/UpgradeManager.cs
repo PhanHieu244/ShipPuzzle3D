@@ -115,7 +115,7 @@ namespace EKStudio
                 ObjectData seat = sortedSeatControllers[i];
                 manager.allseatControllers[i].seatType = seat.objectType;
                 manager.allseatControllers[i].currentColor = seat.currentColor;
-                Renderer seatRenderer = manager.allseatControllers[i].GetComponent<Renderer>();
+                Renderer seatRenderer = manager.allseatControllers[i].GetComponentsInChildren<Renderer>()[1];
                 seatRenderer.material.color = seat.currentColor;
             }
     
@@ -144,7 +144,8 @@ namespace EKStudio
                 ObjectData passenger = sortedPassengerControllers[i];
                 PassengerManager.Instance.currentPassengerList[i].passengerType = passenger.objectType;
                 PassengerManager.Instance.currentPassengerList[i].currentColor = passenger.currentColor;
-                SkinnedMeshRenderer passengerRenderer = PassengerManager.Instance.currentPassengerList[i].GetComponentInChildren<SkinnedMeshRenderer>();
+                //PASSENGER MESH
+                var passengerRenderer = PassengerManager.Instance.currentPassengerList[i].GetComponentInChildren<MeshRenderer>();
                 passengerRenderer.material.color = passenger.currentColor;
             }
     
@@ -223,12 +224,12 @@ namespace EKStudio
     
                             otherDifferent.passengerType = otherSame.passengerType;
                             otherDifferent.currentColor = otherSame.currentColor;
-                            SkinnedMeshRenderer otherRenderer = otherDifferent.GetComponentInChildren<SkinnedMeshRenderer>();
+                            var otherRenderer = otherDifferent.GetComponentInChildren<MeshRenderer>();
                             otherRenderer.material.color = otherDifferent.currentColor;
     
                             otherSame.passengerType = tempObjectData.objectType;
                             otherSame.currentColor = tempObjectData.currentColor;
-                            SkinnedMeshRenderer sameRenderer = otherSame.GetComponentInChildren<SkinnedMeshRenderer>();
+                            var sameRenderer = otherSame.GetComponentInChildren<MeshRenderer>();
                             sameRenderer.material.color = otherSame.currentColor;
     
                             index++;
@@ -305,12 +306,12 @@ namespace EKStudio
                                 SeatController otherSame = list[j];
                                 otherDifferent.seatType = otherSame.seatType;
                                 otherDifferent.currentColor = otherSame.currentColor;
-                                MeshRenderer otherRenderer = otherDifferent.GetComponent<MeshRenderer>();
+                                MeshRenderer otherRenderer = otherDifferent.GetComponentsInChildren<MeshRenderer>()[1];
                                 otherRenderer.material.color = otherDifferent.currentColor;
     
                                 otherSame.seatType = tempObjectData.objectType;
                                 otherSame.currentColor = tempObjectData.currentColor;
-                                MeshRenderer sameRenderer = otherSame.GetComponent<MeshRenderer>();
+                                MeshRenderer sameRenderer = otherSame.GetComponentsInChildren<MeshRenderer>()[1];
                                 sameRenderer.material.color = otherSame.currentColor;
     
                                 otherDifferent.transform.tag = "Untagged";

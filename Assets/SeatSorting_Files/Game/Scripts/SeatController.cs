@@ -12,7 +12,7 @@ namespace EKStudio
     
         private void Awake()
         {
-            currentColor = GetComponent<Renderer>().material.color;
+            currentColor = GetComponentsInChildren<Renderer>()[1].material.color;
         }
     }
     

@@ -21,7 +21,7 @@ namespace EKStudio
             splineFollower.spline = spline;
             this.moveSpeed = moveSpeed;
             StartMoving(initialPosition);
-            currentColor = GetComponentInChildren<SkinnedMeshRenderer>().material.color;
+            currentColor = GetComponentInChildren<MeshRenderer>().material.color;
         }
 
         public void StartMoving(float movePosition)
