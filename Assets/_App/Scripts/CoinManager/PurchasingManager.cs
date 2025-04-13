@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using ChuongCustom;
 using EKStudio;
 using UnityEngine;
 
@@ -16,49 +15,49 @@ public class PurchasingManager : MonoBehaviour
             {
                
             };
-             IAPManager.Instance.BuyProductID(IAPKey.PACK1);
+             IAPManager.Instance.BuyProductID(IAPKey.PACK1_RE);
             break;
          case 2:
             IAPManager.OnPurchaseSuccess = () =>
             {
 
             };
-            IAPManager.Instance.BuyProductID(IAPKey.PACK2);
+            IAPManager.Instance.BuyProductID(IAPKey.PACK1_RE);
             break;
          case 3:
             IAPManager.OnPurchaseSuccess = () =>
             {
                Manager.gameData.totalMoney += 500;
             };
-            IAPManager.Instance.BuyProductID(IAPKey.PACK3);
+            IAPManager.Instance.BuyProductID(IAPKey.PACK1_RE);
             break;
          case 4:
             IAPManager.OnPurchaseSuccess = () =>
             {
                Manager.gameData.totalMoney += 1000;
             };
-            IAPManager.Instance.BuyProductID(IAPKey.PACK4);
+            IAPManager.Instance.BuyProductID(IAPKey.PACK2_RE);
             break;
          case 5:
             IAPManager.OnPurchaseSuccess = () =>
             {
                Manager.gameData.totalMoney += 3000;
             };
-            IAPManager.Instance.BuyProductID(IAPKey.PACK5);
+            IAPManager.Instance.BuyProductID(IAPKey.PACK3_RE);
             break;
          case 6:
             IAPManager.OnPurchaseSuccess = () =>
             {
                Manager.gameData.totalMoney += 5000;
             };
-            IAPManager.Instance.BuyProductID(IAPKey.PACK6);
+            IAPManager.Instance.BuyProductID(IAPKey.PACK4_RE);
             break;
          case 7:
             IAPManager.OnPurchaseSuccess = () =>
             {
                Manager.gameData.totalMoney += 10000;
             };
-            IAPManager.Instance.BuyProductID(IAPKey.PACK7);
+            IAPManager.Instance.BuyProductID(IAPKey.PACK5_RE);
             break;
          
       }

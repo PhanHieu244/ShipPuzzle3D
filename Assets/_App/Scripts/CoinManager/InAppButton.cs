@@ -18,11 +18,11 @@ namespace _App.Scripts.CoinManager
 
         private void OnClickButton()
         {
-            if (GameDataManager.Instance.playerData.intDiamond >= price)
+            /*if (GameDataManager.Instance.playerData.intDiamond >= price)
             {
                 GameDataManager.Instance.playerData.SubDiamond(price);
                 //todo:
-            }
+            }*/
         }
     }
 }
